@@ -1,0 +1,8 @@
+## Protocol for Active learning in Brute Force Manner
+
+0. Run CommitteeForwardPass.py
+1. Run concate-CommitteePredictions.sh
+2. Run get-CommitteeDisagreement.py
+3. Run create-CommitteeDisagreementNewData.py in analysis folder of specific timestamp
+4. cat add-input.data to all the NNs input.data
+5. train again and again and again "Till you exhaust or energy error on the complete pool of dataset become really low"
